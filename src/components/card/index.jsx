@@ -12,8 +12,7 @@ function Card({ element }) {
 
       <h2>{element.name}</h2>
 
-      <button onClick={handleSwitchModal()}>Detalhes</button>
-      {switchModal && <Modal element={element} />}
+
     </div>
   );
 }
